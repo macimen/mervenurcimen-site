@@ -434,3 +434,82 @@ section {
 
 
 }
+.contact-cards {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+
+
+.contact-card {
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.05);
+
+}
+
+
+
+.contact-card h3 {
+
+    font-size:22px;
+
+    color:var(--green-dark);
+
+    margin-bottom:15px;
+
+}
+
+
+
+.contact-card p {
+
+    font-size:17px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.contact-card a {
+
+    color:var(--brown);
+
+    text-decoration:none;
+
+    font-weight:500;
+
+}
+
+
+
+.contact-card a:hover {
+
+    color:var(--green-dark);
+
+}
+
+
+
+@media(max-width:900px){
+
+.contact-cards {
+
+    grid-template-columns:1fr;
+
+}
+
+}
