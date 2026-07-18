@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #faf8f5;
+}
+
+header {
+    padding: 25px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.languages {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 40px;
+}
+
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+
+.hero h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #75695d;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+
+.photo-placeholder {
+    width: 350px;
+    height: 450px;
+    background: #e9e2d8;
+    border-radius: 200px 200px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #75695d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+section {
+    padding: 80px 8%;
+}
+
+
+section h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
+section p {
+    max-width: 750px;
+    font-size: 18px;
+    color: #555;
+}
+
+
+.cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+
+.cards div {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+
+.cards h3 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+
+footer {
+    padding: 30px 8%;
+    text-align: center;
+    color: #777;
+}
+
+
+
+@media(max-width: 800px){
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.photo-placeholder {
+    width: 280px;
+    height: 350px;
+}
+
+.cards {
+    flex-direction: column;
+}
+
+}
