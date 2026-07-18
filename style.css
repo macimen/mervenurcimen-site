@@ -513,3 +513,11 @@ section {
 }
 
 }
+.languages a {
+    text-decoration: none;
+    color: var(--green-dark);
+}
+
+.languages a:hover {
+    color: var(--brown);
+}
