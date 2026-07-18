@@ -212,28 +212,17 @@ h1 {
 
 
 
-.photo-placeholder {
-
+.profile-photo {
 
     width: 360px;
 
     height: 460px;
 
-
-    background: var(--soft);
-
+    object-fit: cover;
 
     border-radius: 200px 200px 30px 30px;
 
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-
-    color: #999;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
 
 }
 
